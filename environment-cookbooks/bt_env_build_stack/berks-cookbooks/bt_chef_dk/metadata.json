@@ -1,0 +1,33 @@
+{
+  "name": "bt_chef_dk",
+  "description": "Installs/Configures bt_chef_dk",
+  "long_description": "Installs/Configures bt_chef_dk",
+  "maintainer": "JP",
+  "maintainer_email": "john.pountain@btfinancialgroup.com",
+  "license": "all_rights",
+  "platforms": {
+  },
+  "dependencies": {
+    "chef-dk": ">= 3.0.0"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+    "bt_chef_dk::default": "Install chef-dk and other things needed for testing chef related stuff"
+  },
+  "version": "0.1.0",
+  "source_url": "",
+  "issues_url": ""
+}

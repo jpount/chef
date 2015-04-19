@@ -1,0 +1,33 @@
+{
+  "name": "bt_ruby",
+  "description": "Installs/Configures bt_ruby",
+  "long_description": "Installs/Configures bt_ruby",
+  "maintainer": "JP",
+  "maintainer_email": "john.pountain@btfinancialgroup.com",
+  "license": "all_rights",
+  "platforms": {
+  },
+  "dependencies": {
+    "rbenv-install-rubies": ">= 0.2.1"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+    "bt_ruby::default": "Install rbenv along with specfic versions of Ruby and gems"
+  },
+  "version": "0.1.0",
+  "source_url": "",
+  "issues_url": ""
+}

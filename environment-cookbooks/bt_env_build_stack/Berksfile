@@ -1,0 +1,11 @@
+source 'https://supermarket.getchef.com'
+
+metadata
+
+cookbook 'bt_go', '~> 0.1.0', path: '../../application-cookbooks/bt_go'
+cookbook 'bt_java', '~> 0.1.0', path: '../../application-cookbooks/bt_java'
+cookbook 'bt_awscli', '~> 0.1.0', path: '../../application-cookbooks/bt_awscli'
+cookbook 'bt_chef_dk', '~> 0.1.0', path: '../../application-cookbooks/bt_chef_dk'
+cookbook 'bt_ruby', '~> 0.1.0', path: '../../application-cookbooks/bt_ruby'
+
+

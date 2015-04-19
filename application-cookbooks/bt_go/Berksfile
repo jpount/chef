@@ -1,0 +1,8 @@
+source "https://supermarket.chef.io"
+
+metadata
+
+cookbook 'bt_java', '~> 0.1.0', path: '../bt_java'
+cookbook 'bt_chef_dk', '~> 0.1.0', path: '../bt_chef_dk'
+cookbook 'bt_ruby', '~> 0.1.0', path: '../bt_ruby'
+
